@@ -1,3 +1,17 @@
 .baground{
     background-image: url(../../img/baground/section-video.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1900px;
+    height: 1200px;
+   
+}
+.container{
+    width: 1200px;
+    outline: 1px red solid;
+    margin: 0 auto;
+}
+.list-1{
+    display: flex;
+    justify-content: center;
 }
