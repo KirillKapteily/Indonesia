@@ -14,6 +14,14 @@ padding: 16px 24px 16px 24px;
 gap: 24px;
 border-radius: 32pxh;
 opacity: 0px;
+color: var(--Neutral-White, #FFF);
+text-align: center;
+/* CTA */
+font-family: "DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 27px */
 }
 
 
@@ -28,3 +36,47 @@ background-color: #212f3c;
     padding-top: 257px;
     padding-left: 97px;
 }
+
+
+.buton-learnmore:hover{
+transform: scale(1.2);
+    color: white;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .button:hover {
+    transform: scale(1.1); /* Grows the button slightly */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+  }
+
+  .button:active {
+    transform: scale(0.95); /* Shrinks the button on click */
+    box-shadow: 0px 2px 8px rgba(178, 60, 60, 0.56); /* Reduces shadow */
+  }
+
+
+  .section-article-image-1{
+    margin-left: 1100px;
+    margin-top: -300px;
+  }
+
+  .article-image-beach{
+    margin-left: 990px;
+    margin-top: 150px;
+  }
+
+  .section-article-image-beach{
+    margin-top: -300px;
+    margin-left: 390px;
+  }
