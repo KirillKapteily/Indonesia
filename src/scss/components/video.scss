@@ -4,14 +4,21 @@
     background-position: center;
     width: 1900px;
     height: 1200px;
+    padding-top: 120px;
    
 }
 .container{
-    width: 1200px;
+    width: 1500px;
     outline: 1px red solid;
     margin: 0 auto;
+    
 }
 .list-1{
+    display: flex;
+    justify-content: center;
+    
+}
+.div-iframe{
     display: flex;
     justify-content: center;
 }
