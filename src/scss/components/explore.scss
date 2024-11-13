@@ -25,6 +25,7 @@ background-size: cover;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.5px;
+
     text-align: center;
 }
 
@@ -33,18 +34,17 @@ background-size: cover;
     text-align: center;
 font-size: 32.14px;
 font-weight: 700;
-line-height: 49.16px;
-letter-spacing: 0.39px;
+
 }
 
 .explore-backround{
-    background-color: #020c21d8;
+    background-color: #020c21ea;
     padding: 102px 322px;
 }
 
 .explore-list{
     display: flex;
-    gap: 27px;
+    gap: 47px;
 }
 
 .explore-title-2{
@@ -60,9 +60,11 @@ text-align: center;
 color: rgb(224, 224, 224);
 font-size: 18px;
 font-weight: 400;
+margin-bottom: 39px;
 line-height: 28px;
 letter-spacing: 0.5px;
 text-align: center;
+
 }
 
 .slider-container {
