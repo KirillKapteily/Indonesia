@@ -1,2 +1,0 @@
-# Indonesia
-Team project
