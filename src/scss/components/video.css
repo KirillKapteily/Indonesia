@@ -1,0 +1,58 @@
+.container {
+  width: 1500px;
+  outline: 1px red solid;
+  margin: 0 auto;
+}
+
+.baground {
+  background-image: url(../../img/baground/section-video.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 1900px;
+  height: 1200px;
+  padding-top: 120px;
+}
+
+.list-1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.div-iframe {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  width: 233px;
+  height: 151px;
+}
+
+.ul-2 {
+  padding-top: -200px;
+}
+
+.div-picture {
+  display: flex;
+}
+
+.div-iframe {
+  display: flex;
+  flex-direction: column;
+}
+
+.iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.picture1 {
+  width: 610px;
+  outline: 1px red solid;
+}
+
+.display-sec {
+  display: flex;
+  margin: 0 auto;
+}/*# sourceMappingURL=video.css.map */
