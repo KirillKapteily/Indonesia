@@ -146,3 +146,49 @@ h2 {
 .dot.active {
     background-color: #e63946;
 }
+
+.container{
+width: 1440px;
+outline: #e63946 solid 1px;
+margin: 0 auto;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+.container{
+    width: 376px;
+outline: #e63946 solid 1px;
+margin: 0 auto;
+}
+
+.explore-backround{
+    padding: 30px 30px;
+}
+
+.explore-list{
+    flex-direction: column;
+}
+
+.slider-container {
+    left: 35px;
+}
+}
+
+@media (min-width:678px) and (max-width:1439px) {
+    .container{
+        width: 678px;
+    outline: #e63946 solid 1px;
+    margin: 0 auto;
+    }
+    
+    .explore-backround{
+        padding: 30px 30px;
+    }
+    
+    .explore-paragraph{
+        margin-bottom: 100px;
+    }
+
+    .slider-container {
+        left: 40px;
+    }
+    }
