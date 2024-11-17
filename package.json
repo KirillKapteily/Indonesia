@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build --base=/Indonesia/",
+    "build": "vite build --KirillKapteily=/Indonesia/",
     "preview": "vite preview"
   },
   "devDependencies": {
