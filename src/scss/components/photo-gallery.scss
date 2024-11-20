@@ -1,1 +1,31 @@
+.photo-title{
+    color: rgb(1, 10, 32);
 
+font-size: 35px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.photo-par{
+    /* Paragraph */
+color: rgb(111, 119, 135);
+
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 1%;
+text-align: center;
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+justify-content: center;
+
+}
+
+.photo-sect{
+    padding: 273px 273px;
+}
