@@ -1,8 +1,22 @@
 <div class="container">
-    <section class="photo-sect"> 
-<h2 class="photo-title">Photo Gallery</h2>
-    <p class="photo-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
-    <img src="../../img/photo-galar/Images.png" alt="photos" class="photos">
+    <section class="photo-sect">
+        <h2 class="photo-title">Photo Gallery</h2>
+        <p class="photo-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Phasellus dapibus mauris in
+            lectus tempus, eget tincidunt.</p>
+            <picture>
+                <source srcset="../../img/photo-galar/images@1x.png" media="(min-width: 320px) and (max-width:620px)">
+                <source srcset="../../img/photo-galar/images@2x.png" media="(min-width: 621px) and (max-width:1200px)">
+                <source srcset="../../img/photo-galar/images@3x.png" media="(min-width: 1201px)">
+                <img src="../../img/photo-galar/images@1x.png" alt="photos" class="photos">
+              </picture>
+        
+              <picture>
+                <source srcset="../../img/photo-galar/images-mobile.jpeg" media="(min-width: 320px) and (max-width:620px)">
+                <source srcset="../../img/photo-galar/pg@2x" media="(min-width: 621px) and (max-width:1200px)">
+                <source srcset="../../img/photo-galar/pg@3x" media="(min-width: 1201px)">
+                <img src="../../img/photo-galar/images-mobile.jpeg" alt="photos" class="photosm">
+              </picture>
+
     </section>
-    
+
 </div>
