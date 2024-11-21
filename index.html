@@ -13,8 +13,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/Indonesia/assets/index-69016c92.js"></script>
-    <link rel="stylesheet" href="/Indonesia/assets/index-f50d8c77.css">
+    <script type="module" crossorigin src="/Indonesia/assets/index-7c04c665.js"></script>
+    <link rel="stylesheet" href="/Indonesia/assets/index-74021a68.css">
   </head>
   <body>
 
@@ -270,14 +270,27 @@
 </section>
 </div>
     <div class="container">
-    <section class="photo-sect"> 
-<h2 class="photo-title">Photo Gallery</h2>
-    <p class="photo-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
-    <img src="../../img/photo-galar/Images.png" alt="photos" class="photos">
-    </section>
-    
-</div>
+    <section class="photo-sect">
+        <h2 class="photo-title">Photo Gallery</h2>
+        <p class="photo-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Phasellus dapibus mauris in
+            lectus tempus, eget tincidunt.</p>
+            <picture>
+                <source srcset="../../img/photo-galar/images@1x.png" media="(min-width: 320px) and (max-width:620px)">
+                <source srcset="../../img/photo-galar/images@2x.png" media="(min-width: 621px) and (max-width:1200px)">
+                <source srcset="../../img/photo-galar/images@3x.png" media="(min-width: 1201px)">
+                <img src="../../img/photo-galar/images@1x.png" alt="photos" class="photos">
+              </picture>
+        
+              <picture>
+                <source srcset="../../img/photo-galar/images-mobile.jpeg" media="(min-width: 320px) and (max-width:620px)">
+                <source srcset="../../img/photo-galar/pg@2x" media="(min-width: 621px) and (max-width:1200px)">
+                <source srcset="../../img/photo-galar/pg@3x" media="(min-width: 1201px)">
+                <img src="../../img/photo-galar/images-mobile.jpeg" alt="photos" class="photosm">
+              </picture>
 
+    </section>
+
+</div>
     <section class="getting-there">
     <div class="container">
       <h1>Getting there</h1>
