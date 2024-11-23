@@ -26,8 +26,9 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.5px;
-
+    width: 340.61px;
     text-align: center;
+
 }
 
 .item-title {
@@ -40,12 +41,16 @@
 
 .explore-backround {
     background-color: #020c21ea;
-    padding: 102px 322px;
+    // padding: 102px 322px;
+    width: 100%;
+    outline: #e63946 1px solid;
 }
 
 .explore-list {
     display: flex;
     gap: 47px;
+
+    justify-content: center;
 }
 
 .explore-title-2 {
