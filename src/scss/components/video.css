@@ -1,7 +1,10 @@
 .container {
   width: 1500px;
-  outline: 1px red solid;
   margin: 0 auto;
+}
+
+.color3 {
+  color: white;
 }
 
 .baground {
@@ -35,6 +38,7 @@
 
 .div-picture {
   display: flex;
+  margin-top: 100px;
 }
 
 .div-iframe {
@@ -49,7 +53,6 @@
 
 .picture1 {
   width: 610px;
-  outline: 1px red solid;
 }
 
 .display-sec {
@@ -60,4 +63,21 @@
 .img1 {
   width: 230px;
   height: 150px;
+}
+
+.li1 {
+  margin-left: 30px;
+}
+
+.li2 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.color {
+  color: white;
+}
+
+.color2 {
+  color: black;
 }/*# sourceMappingURL=video.css.map */
