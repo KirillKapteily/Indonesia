@@ -1,4 +1,40 @@
 .footer {
-    background-color: #010A20;
+    width: 100%;
+    height: 136;
+    background-color: #010a20;
     display: flex;
+
+    .flower {
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+    }
+
+    .exploreindonesia {
+        width: 128px;
+        height: 56.749px;
+        flex-shrink: 0;
+    }
+
+
+    .ul1 {
+        display: flex;
+        list-style: none;
+        gap: 36px;
+
+        .li1 {
+            color: #FFFFFF;
+            font-feature-settings: 'liga' off, 'clig' off;
+            font-family: "DM Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 0.5px;
+        }
+    }
 }
