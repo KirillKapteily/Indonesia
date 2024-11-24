@@ -80,3 +80,23 @@ transform: scale(1.2);
     margin-top: -300px;
     margin-left: 90px;
   }
+
+  @media  screen and (max-width: 800px) {
+    .article-section{
+      max-width: 100%;
+      max-width: 380px;
+    }
+    .article-image-1{
+text-align: center;
+    width: 250px;
+    height: 250px;
+    }
+    .buton-learnmore{
+      margin-left: 0px;
+      text-align: left;
+    }
+
+    .article-image-beach{
+      padding-left: 0px;
+    }
+  }
