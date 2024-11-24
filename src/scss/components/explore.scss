@@ -28,7 +28,7 @@
     letter-spacing: 0.5px;
     width: 340.61px;
     text-align: center;
-
+    padding-bottom: 101px;
 }
 
 .item-title {
@@ -60,6 +60,7 @@
     line-height: 150%;
     letter-spacing: 0%;
     text-align: center;
+    padding-top: 101px;
 }
 
 .explore-paragraph {
@@ -89,7 +90,7 @@ h2 {
 .slider {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .slides {
@@ -101,6 +102,7 @@ h2 {
     min-width: 100%;
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .slide img {
@@ -167,7 +169,7 @@ h2 {
     }
 
     .explore-backround {
-        padding: 30px 30px;
+        padding: 10px 10px;
     }
 
     .explore-list {
