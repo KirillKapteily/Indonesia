@@ -1,25 +1,76 @@
+body {
+    margin: 0px;
+}
+
 .footer {
-    width: 100%;
-    height: 136;
+    width: 1920px;
+    height: 136px;
     background-color: #010a20;
     display: flex;
+    flex-wrap: wrap;
 
     .flower {
-        font-feature-settings: 'liga' off, 'clig' off;
-        font-family: "DM Sans";
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 28px;
-        letter-spacing: 0.5px;
+        margin-top: 39px;
+        margin-bottom: 46px;
+        margin-left: 70px;
+        width: 51px;
+        height: 51px;
+        flex-shrink: 0;
     }
 
     .exploreindonesia {
+        margin-right: 124px;
+        margin-top: 48px 31.25px;
+        margin-bottom: 31.25px;
         width: 128px;
         height: 56.749px;
         flex-shrink: 0;
     }
 
+    .copy {
+        color:#FFF;
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+        letter-spacing: 0.5px;
+        margin-top: 58px;
+        margin-bottom: 50px;
+    }
+
+    .flexbox {
+        display: flex;
+        gap: 22px;
+
+        .face {
+            margin-right: 720px;
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+            margin-top: 60px;
+            margin-bottom: 52px;
+        }
+
+        .link {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+            margin-top: 60px;
+            margin-bottom: 52px;
+        }
+
+        .goog {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+            margin-right: 50px;
+            margin-top: 60px;
+            margin-bottom: 52px;
+        }
+
+    }
 
     .ul1 {
         display: flex;
@@ -35,6 +86,8 @@
             font-weight: 700;
             line-height: 28px;
             letter-spacing: 0.5px;
+            margin-top: 58px;
+            margin-bottom: 50px;
         }
     }
 }
